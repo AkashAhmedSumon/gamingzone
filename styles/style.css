@@ -179,6 +179,64 @@ nav.menu-list a,
 }
 
 /* ------- Banner Section Styles End ------- */
+/* ------- Cartton Section Styles Start ------- */
+.cartoon-section {
+    padding-bottom: 100px;
+    background: linear-gradient(90deg, #ff42a508 0%, #ff42a508 100%);
+}
+.single-cartoon:hover{
+    border: 1px solid #F948B2;
+    color: #F948B2;
+}
+.single-cartoon{
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    padding: 6px;
+    border: 1px solid transparent;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+.cartoon-group .active{
+    border: 1px solid #F948B2;
+    align-items: center;
+    border-radius: 50px;
+    padding: 6px;
+}
+
+.single-cartoon img {
+    margin-right: 15px;
+}
+.cartoon-group {
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 25px;
+    padding: 100px 0px 50px;
+}
+.single-cartoon p {
+    
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.single-cartoon2 {
+    padding: 0px 200px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+
+
+
+
+
+
+
+
+/* ------- Cartton Section Styles End ------- */
 /* ------- Footer Section Styles Start ------- */
 .footer-section {
   background: #0b0223;
