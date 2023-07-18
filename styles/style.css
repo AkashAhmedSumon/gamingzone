@@ -110,6 +110,9 @@ nav.menu-list a,
 }
 /* ------- Header Section Styles End ------- */
 /* ------- Banner Section Styles Here ------- */
+.banner-area{
+    background-color: #FAF7FD;
+}
 .banner-section {
   display: flex;
   justify-content: space-between;
@@ -179,62 +182,93 @@ nav.menu-list a,
 }
 
 /* ------- Banner Section Styles End ------- */
+/* ------- Game Section Styles Start ------- */
+.game-section {
+    padding: 80px 0px 150px;
+}
+.game-area {
+  display: flex;
+}
+.game-img img {
+  width: 600px;
+  height: 650px;
+}
+.game-content {
+  width: 30%;
+  margin: auto;;
+}
+.game-title {
+  text-align: right;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.game-description {
+  color: #534c64;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.game-img {
+    position: relative;
+}
+img.box-img {
+    position: absolute;
+    width: 270px;
+    height: 280px;
+    left: -20%;
+    bottom: -13%;
+}
+
+/* ------- Game Section Styles End ------- */
 /* ------- Cartton Section Styles Start ------- */
 .cartoon-section {
-    padding-bottom: 100px;
-    background: linear-gradient(90deg, #ff42a508 0%, #ff42a508 100%);
+  padding-bottom: 100px;
+  background: linear-gradient(90deg, #ff42a508 0%, #ff42a508 100%);
 }
-.single-cartoon:hover{
-    border: 1px solid #F948B2;
-    color: #F948B2;
+.single-cartoon:hover {
+  border: 1px solid #f948b2;
+  color: #f948b2;
 }
-.single-cartoon{
-    display: flex;
-    align-items: center;
-    border-radius: 50px;
-    padding: 6px;
-    border: 1px solid transparent;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+.single-cartoon {
+  display: flex;
+  align-items: center;
+  border-radius: 50px;
+  padding: 6px;
+  border: 1px solid transparent;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
 }
-.cartoon-group .active{
-    border: 1px solid #F948B2;
-    align-items: center;
-    border-radius: 50px;
-    padding: 6px;
+.cartoon-group .active {
+  border: 1px solid #f948b2;
+  align-items: center;
+  border-radius: 50px;
+  padding: 6px;
 }
 
 .single-cartoon img {
-    margin-right: 15px;
+  margin-right: 15px;
 }
 .cartoon-group {
-    display: grid;
-    grid-template-columns: repeat(5,1fr);
-    gap: 25px;
-    padding: 100px 0px 50px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+  padding: 100px 0px 50px;
 }
 .single-cartoon p {
-    
-    font-size: 16px;
-    text-transform: capitalize;
-    font-weight: 600;
+  font-size: 16px;
+  text-transform: capitalize;
+  font-weight: 600;
 }
 .single-cartoon2 {
-    padding: 0px 200px;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    gap: 20px;
+  padding: 0px 200px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
-
-
-
-
-
-
-
-
 
 /* ------- Cartton Section Styles End ------- */
 /* ------- Footer Section Styles Start ------- */
