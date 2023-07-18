@@ -9,8 +9,8 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
-.hide{
-    display: none;
+.hide {
+  display: none;
 }
 /* Default Button Add */
 
@@ -30,20 +30,20 @@ body {
   -o-border-radius: 50px;
 }
 .secondary-primary {
-    background: #4ec5f7;
-    color: #ffffff;
-    border: none;
-    padding: 15px 25px;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
-    margin: 40px 0px 0px 20px;
+  background: #4ec5f7;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+  margin: 40px 0px 0px 20px;
 }
 /* ------- Header Section Styles Here ------- */
 .main-container {
@@ -111,12 +111,11 @@ nav.menu-list a,
 /* ------- Header Section Styles End ------- */
 /* ------- Banner Section Styles Here ------- */
 .banner-section {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    max-width: 1400px;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  max-width: 1400px;
 }
 /* .banner-content {
     background-image: url(../images/Group\ 14.png);
@@ -180,3 +179,80 @@ nav.menu-list a,
 }
 
 /* ------- Banner Section Styles End ------- */
+/* ------- Footer Section Styles Start ------- */
+.footer-section {
+  background: #0b0223;
+}
+.footer-content {
+  max-width: 800px;
+  margin: 0px auto;
+  padding: 100px 50px;
+}
+.footer-menu {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.footer-menu a,
+.footer-info a {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: 600;
+  text-align: center;
+}
+.footer-icon {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  padding: 25px 150px;
+  font-size: 22px;
+  margin: 50px 0px;
+}
+.footer-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer-description {
+  color: #ffffff99;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.footer-icon .twitter {
+  color: #ffffff;
+}
+.footer-icon .facebook {
+  background-color: #ffffff;
+  color: #1877f2;
+}
+.footer-icon .youtube {
+  color: #f61c0d;
+  background-color: #ffffff;
+}
+.footer-icon .linkedin {
+  color: #ffffff;
+}
+.footer-icon .instagram {
+  color: #ffffff;
+}
+.footer-icon .apple {
+  color: #ffffff;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.footer-logo img {
+  margin-right: 20px;
+}
+
+.footer-logo h1 {
+  color: #ffffff;
+}
+
+/* ------- Footer Section Styles End ------- */
