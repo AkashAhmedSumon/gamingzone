@@ -1,0 +1,74 @@
+/* Font Link Added Form Google */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* Added Font Name Form Google */
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+.main-container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.top-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+.logo-part {
+  display: flex;
+  align-items: center;
+}
+.logo-part img {
+  width: 90px;
+  height: 40px;
+  margin-right: 20px;
+}
+span.span-color {
+  color: #ff42a5;
+  font-size: 45px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+nav.menu-list {
+  display: flex;
+}
+.header-icon {
+    display: flex;
+    background-color: #E7E6E9;
+    padding: 10px 21px 10px 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+.header-icon .youtube{
+    color:#F61C0D;
+}
+.header-icon .tiktok{
+    color: #3c354f;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+nav.menu-list li,
+.header-icon li {
+  list-style: none;
+}
+nav.menu-list a,
+.header-icon a {
+  display: block;
+  color: #3c354f;
+  font-size: 18px;
+  font-weight: 500;
+  margin-left: 25px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: capitalize;
+}
