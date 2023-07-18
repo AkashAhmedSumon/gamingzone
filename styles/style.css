@@ -9,16 +9,52 @@
 body {
   font-family: "Work Sans", sans-serif;
 }
+.hide{
+    display: none;
+}
+/* Default Button Add */
 
+.btn-primary {
+  background-color: #f948b2;
+  color: #ffffff;
+  border: none;
+  padding: 15px 25px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 600;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+.secondary-primary {
+    background: #4ec5f7;
+    color: #ffffff;
+    border: none;
+    padding: 15px 25px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    margin: 40px 0px 0px 20px;
+}
+/* ------- Header Section Styles Here ------- */
 .main-container {
   max-width: 1400px;
   margin: 0 auto;
 }
 .top-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 40px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 0px;
 }
 .logo-part {
   display: flex;
@@ -40,22 +76,22 @@ nav.menu-list {
   display: flex;
 }
 .header-icon {
-    display: flex;
-    background-color: #E7E6E9;
-    padding: 10px 21px 10px 0px;
-    border-radius: 10px;
-    margin-left: 20px;
+  display: flex;
+  background-color: #e7e6e9;
+  padding: 10px 21px 10px 0px;
+  border-radius: 10px;
+  margin-left: 20px;
 }
-.header-icon .youtube{
-    color:#F61C0D;
+.header-icon .youtube {
+  color: #f61c0d;
 }
-.header-icon .tiktok{
-    color: #3c354f;
+.header-icon .tiktok {
+  color: #3c354f;
 }
 
 .nav-menu {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 nav.menu-list li,
 .header-icon li {
@@ -72,3 +108,75 @@ nav.menu-list a,
   text-decoration: none;
   text-transform: capitalize;
 }
+/* ------- Header Section Styles End ------- */
+/* ------- Banner Section Styles Here ------- */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    max-width: 1400px;
+   
+}
+/* .banner-content {
+    background-image: url(../images/Group\ 14.png);
+    background-repeat: no-repeat;
+} */
+
+.banner-title {
+  color: #0b0223;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.banner-subtitle {
+  text-align: center;
+  font-size: 95px;
+  font-weight: 800;
+  text-transform: uppercase;
+  background-image: linear-gradient(to bottom, #f948b2, #8758f1);
+  color: transparent;
+  -webkit-background-clip: text;
+}
+.banner-list {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.banner-info {
+  color: #534c64;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: lowercase;
+}
+.banner-list .right-icon {
+  border: 1px solid #0b0223;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f948b2;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.banner-list .right-arrow {
+  color: #f948b2;
+  margin-right: 15px;
+  font-size: 16px;
+}
+.banner-list .right-user {
+  color: #0b0223;
+  margin-right: 15px;
+  font-size: 16px;
+}
+
+.banner-img img {
+  width: 700px;
+  height: auto;
+}
+
+/* ------- Banner Section Styles End ------- */

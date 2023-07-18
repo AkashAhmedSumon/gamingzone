@@ -1,12 +1,53 @@
-@media screen and (max-width: 768px){
-    .top-header,
-    .nav-menu,
-    .menu-list{
-        flex-direction: column;
-    }
-    nav.menu-list a,
-    .header-icon{
-        margin-top: 35px;
-    }
-   
+@media screen and (max-width: 768px) {
+  .top-header,
+  .nav-menu,
+  .menu-list {
+    flex-direction: column;
+  }
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+
+  nav.menu-list a,
+  .header-icon {
+    margin-top: 35px;
+  }
+  .banner-content {
+    margin: 50px auto;
+    padding-left: 110px;
+    
+}
+  .banner-images {
+    width: 100%;
+    padding: 0px 30px;
+}
+}
+
+@media screen and (max-width: 576px) {
+  .banner-section {
+    flex-direction: column-reverse;
+  }
+  .banner-img img {
+    width: 100%;
+    margin: auto;
+    display: block;
+  }
+  .banner-title {
+    text-align: start;
+    font-size: 25px;
+  }
+  .banner-subtitle {
+    font-size: 50px;
+    text-align: start;
+  }
+  .banner-content{
+    padding-left: 50px;
+  }
+  .banner-images {
+    width: 100%;
+}
+  .btn-primary, .secondary-primary {
+    padding: 10px 15px;
+    font-size: 16px;
+  }
 }
