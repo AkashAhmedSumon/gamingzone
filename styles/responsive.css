@@ -17,6 +17,7 @@
     margin: 0 auto;
     display: block;
   }
+
   img.box-img{
     left: 0%;
   }
@@ -40,6 +41,10 @@
   .banner-images {
     width: 100%;
     padding: 0px 30px;
+  }
+  
+  .player-group{
+    grid-template-columns: 1fr;
   }
   .footer-info {
     grid-template-columns: repeat(2, 1fr);
@@ -73,7 +78,11 @@
   .cartoon-section{
     margin-top: 50px;
   }
-
+  .single-player {
+    width: 60%;
+    margin: 15px auto;
+    display: block;
+}
   
 }
 
@@ -124,7 +133,7 @@ img.box-img {
   }
   .banner-content {
     padding-left: 50px;
-    margin-top: 50px;
+    margin: 50px 0px;
   }
   .banner-images {
     width: 100%;
@@ -159,6 +168,9 @@ img.box-img {
   .footer-menu {
     grid-template-columns: repeat(3, 1fr);
   }
+  .player-group{
+    grid-template-columns: 1fr;
+  }
   .game-content{
     width: 100%;
   }
@@ -166,4 +178,9 @@ img.box-img {
   .game-description{
     text-align: center;
   }
+  .single-player {
+    width: 60%;
+    margin: 15px auto;
+    display: block;
+}
 }
