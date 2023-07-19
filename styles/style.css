@@ -364,9 +364,8 @@ img.box-img {
   -moz-transition: 0.5s;
   -ms-transition: 0.5s;
   -o-transition: 0.5s;
-  width: 235px;
-  margin: 16px 0px;
-
+  width: 265px;
+  margin: 16px 15px 16px 0px;
 }
 .cartoon-group .active {
   border: 1px solid #f948b2;
