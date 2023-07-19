@@ -1,3 +1,38 @@
+@media screen and (max-width: 1050px) {
+    .player-group{
+      grid-template-columns: repeat(3,1fr);
+      padding-left: 15px;
+    
+    }
+    .banner-area{
+      padding: 20px;
+    }
+    .banner-img img{
+      width: 500px;
+    }
+    .top-header {
+      padding: 40px 20px;
+  }
+    .game-area{
+      flex-direction: column;
+    }
+    .game-content{
+      width: 100%;
+      margin: 0 auto 30px;
+    }
+    .game-title, .game-description{
+      text-align: center;
+    }
+    .game-img img {
+      margin: 0 auto;
+      display: block;
+  }
+  img.box-img{
+    left: 0%;
+  }
+  
+ 
+}
 @media screen and (min-width: 577px) and (max-width: 768px) {
   .top-header,
   .nav-menu,
