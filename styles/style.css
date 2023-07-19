@@ -378,12 +378,7 @@ img.box-img {
 .single-cartoon img {
   margin-right: 15px;
 }
-/* .cartoon-group {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 25px;
-  padding: 100px 0px 50px;
-} */
+
 .cartoon-group {
   display: flex;
   flex-wrap: wrap;
